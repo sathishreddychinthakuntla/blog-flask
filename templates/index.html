@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>👋 Hi, I'm Sathish Reddy Chinthakuntla</h1>
+<p>DevOps Engineer from Hyderabad, passionate about automation, cloud, and containerization.</p>
+
+<h2>🛠️ Technical Skills</h2>
+<ul>
+    <li>AWS (EC2, S3, IAM, EBS, CloudWatch)</li>
+    <li>Terraform, CloudFormation, Jenkins, Docker, Kubernetes</li>
+    <li>ArgoCD, GitHub Actions, Prometheus, Grafana</li>
+    <li>Python, Shell Scripting, Git, GitHub</li>
+</ul>
+
+<h2>📂 Projects</h2>
+<ul>
+  {% for project in projects %}
+    <li>
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.github }}" target="_blank">🔗 GitHub</a>
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}

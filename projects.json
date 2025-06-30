@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Netflix-like CI/CD Deployment",
+    "description": "End-to-end CI/CD pipeline using Jenkins, Terraform Cloud, Ansible, Tomcat, Prometheus, and S3. Enabled Slack alerts for deployment events.",
+    "github": "https://github.com/sathishreddychinthakuntla/netflix-clone"
+  },
+  {
+    "title": "Microservices CI/CD on AWS EKS",
+    "description": "Containerized microservices deployed via Jenkins pipelines on EKS, with Docker, RBAC, and GitHub integration.",
+    "github": "https://github.com/sathishreddychinthakuntla/microservices-project"
+  },
+  {
+    "title": "Flask Portfolio Website",
+    "description": "Portfolio website using Flask to showcase my DevOps experience, tools, and certifications. Features contact form and dynamic projects.",
+    "github": "https://github.com/sathishreddychinthakuntla/blog-flask"
+  }
+]
