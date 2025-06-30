@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Blog App with Flask",
+    "description": "Simple blog using Flask and SQLite.",
+    "github": "https://github.com/sathishreddychinthakuntla/blog-flask"
+  },
+  {
+    "title": "DevOps CI/CD Pipeline",
+    "description": "AWS EKS deployment using Jenkins and ArgoCD.",
+    "github": "https://github.com/sathishreddychinthakuntla/devops-cicd"
+  }
+]
